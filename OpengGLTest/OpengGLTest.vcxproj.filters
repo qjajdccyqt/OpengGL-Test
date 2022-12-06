@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\shader">
+      <UniqueIdentifier>{043d3d59-47e2-4ef2-a599-1b27612607c6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,6 +27,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="vertexShader.shader">
+      <Filter>源文件\shader</Filter>
+    </None>
+    <None Include="fragmentShader.shader">
+      <Filter>源文件\shader</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glad\include\glad\glad.h">
@@ -34,6 +43,12 @@
     </ClInclude>
     <ClInclude Include="EBO.hpp">
       <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="shader.hpp">
+      <Filter>源文件\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderTest.hpp">
+      <Filter>源文件\shader</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

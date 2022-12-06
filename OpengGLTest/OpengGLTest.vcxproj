@@ -147,11 +147,15 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="fragmentShader.shader" />
     <None Include="packages.config" />
+    <None Include="vertexShader.shader" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EBO.hpp" />
     <ClInclude Include="glad\include\glad\glad.h" />
+    <ClInclude Include="shader.hpp" />
+    <ClInclude Include="shaderTest.hpp" />
     <ClInclude Include="VAO.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
