@@ -1,13 +1,11 @@
 ﻿#include "VAO.hpp"
 #include "EBO.hpp"
 #include "shaderTest.hpp"
-#include "colors.hpp"
 
 int main()
 {
-    //vaoTest::test();
-    //eboTest::test();
-    //shaderTest::test();
-    colorsTest::test();
+    //VAO::test();
+    //EBO::test();
+    Shader::test();
     return 0;
 }
