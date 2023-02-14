@@ -16,6 +16,9 @@
     <Filter Include="源文件\shader">
       <UniqueIdentifier>{043d3d59-47e2-4ef2-a599-1b27612607c6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="源文件\colors_sharder">
+      <UniqueIdentifier>{36d83d9b-5b1e-422f-a4b4-7a70456110d8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -33,6 +36,18 @@
     <None Include="fragmentShader.shader">
       <Filter>源文件\shader</Filter>
     </None>
+    <None Include="colors.fragment.shader">
+      <Filter>源文件\colors_sharder</Filter>
+    </None>
+    <None Include="colors.vertex.shader">
+      <Filter>源文件\colors_sharder</Filter>
+    </None>
+    <None Include="light_cube.fragment.shader">
+      <Filter>源文件\colors_sharder</Filter>
+    </None>
+    <None Include="light_cube.vertex.shader">
+      <Filter>源文件\colors_sharder</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="glad\include\glad\glad.h">
@@ -49,6 +64,12 @@
     </ClInclude>
     <ClInclude Include="shaderTest.hpp">
       <Filter>源文件\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.hpp">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.hpp">
+      <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
